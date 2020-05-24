@@ -1,5 +1,4 @@
 #!/usr/bin/env ruby
-# -*- ruby -*-
 
 begin
   require 'win32console'
