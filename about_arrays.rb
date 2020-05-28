@@ -40,7 +40,7 @@ class AboutArrays < Neo::Koan
     assert_equal [:and, :jelly], array[2,2]
     assert_equal [:and, :jelly], array[2,20]
     assert_equal [], array[4,100]
-    assert_equal [], array[4,0] # why empty array and nil bellow
+    assert_equal [], array[4,0] # TODO: why empty array and nil bellow
     assert_equal nil, array[5,0]
   end
 

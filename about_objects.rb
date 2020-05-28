@@ -42,6 +42,8 @@ class AboutObjects < Neo::Koan
     #
     # Integers seems to have odd object_id. n * 2 + 1. These way each number
     # has it own id, but still there are even numbers for other objects.
+    #
+    # I just realized negative numbers have negative ids.
   end
 
   def test_clone_creates_a_different_object
